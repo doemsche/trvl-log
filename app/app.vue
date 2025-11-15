@@ -1,5 +1,5 @@
 <template>
   <button class="btn btn-success m-8">
-    Success
+    View Map <Icon name="tabler:map" />
   </button>
 </template>
