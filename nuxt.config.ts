@@ -7,7 +7,12 @@ import "./app/lib/env";
 export default defineNuxtConfig({
   compatibilityDate: "22024-11-01",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/icon", "@nuxtjs/color-mode"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/icon",
+    "@nuxtjs/color-mode",
+    "@pinia/nuxt",
+  ],
   eslint: {
     config: {
       standalone: false, // <---
