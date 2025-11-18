@@ -1,13 +1,10 @@
 name: Lint
-
 on:
   pull_request:
     branches:
       - main
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
     environment: build
     env:
